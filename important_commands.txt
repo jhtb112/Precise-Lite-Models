@@ -5,3 +5,8 @@ ovos-config show
 python -m json.tool /home/ovos/.config/mycroft/mycroft.conf
 scp ovos@192.168.1.184:~/.local/share/mycroft/listener/utterances/<filename.wav> C:\Users\james\Documents\Projects\Voice_Assistant\Recordings
 nano ~/.config/mycroft/mycroft.conf
+
+File Management:
+cd .local
+ls -d */
+ls -p | grep -v /
